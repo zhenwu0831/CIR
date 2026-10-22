@@ -1,12 +1,15 @@
 # On Code-Induced Reasoning in LLMs
 
-Code and artifacts for our ICLR 2026 paper **On Code-Induced Reasoning in LLMs**.
+Code and artifacts for our ICLR 2026 paper [**On Code-Induced Reasoning in LLMs**](https://openreview.net/pdf?id=LIv0bfJZIi).
 
 **Abdul Waheed\*, Zhen Wu\*, Carolyn Rosé, and Daphne Ippolito**  
 Carnegie Mellon University  
 \*Equal contribution; co-first authors.
 
-[Code](https://github.com/zhenwu0831/CIR) · [Datasets and models](https://huggingface.co/CodeAtCMU)
+[![Paper](https://img.shields.io/badge/Paper-ICLR%202026-blue?logo=readthedocs&logoColor=white)](https://openreview.net/pdf?id=LIv0bfJZIi)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/zhenwu0831/CIR)
+[![Datasets](https://img.shields.io/badge/Datasets-Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/CodeAtCMU?tab=datasets)
+[![Models](https://img.shields.io/badge/Models-Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/CodeAtCMU?tab=models)
 
 We study how code affects LLM reasoning through parallel instruction datasets in
 10 programming languages, controlled structural and semantic perturbations, and
@@ -165,7 +168,7 @@ HRM8K task definitions are also available under `third_party/tasks/hrm8k/`.
 CodeMMLU and HumanEvalX generation, rubric generation, GPT-4o-mini judging,
 and aggregation commands are in [WORKFLOWS.md](WORKFLOWS.md). That guide also
 covers instruction collection, natural-language construction, generative
-perturbations, exact settings, and remaining experimental inputs.
+perturbations and experimental settings.
 
 ## Repository contents
 
@@ -179,9 +182,6 @@ perturbations, exact settings, and remaining experimental inputs.
 | `configs/datasets.json` | Dataset catalog |
 | `workflows/` | Instruction construction, generative perturbations, and HumanEvalX |
 | `third_party/codemmlu/` | CodeMMLU evaluator and aggregation |
-
-Additional data-generation code, dataset revisions, model links, and final aggregate
-results will be added as the release is completed.
 
 ## Citation and attribution
 
@@ -202,4 +202,4 @@ Training uses
 [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory); evaluation uses
 [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness).
 Upstream notices are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-Code, dataset, and model licensing will be specified separately.
+Datasets and model weights are subject to their respective licenses and terms.

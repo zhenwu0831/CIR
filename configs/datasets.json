@@ -1,338 +1,242 @@
 [
   {
     "training_dataset_key": "C#_data_12K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "C++_data_12K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "C_data_12K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "Go_data_12K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "JavaScript_data_12K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "Java_data_12K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "PHP_data_12K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "Python_data_12K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "Rust_data_12K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "TypeScript_data_12K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "code_data_120K",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K"
   },
   {
     "training_dataset_key": "code_data_120K_bad_comments_docs",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K_bad_comments_docs",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K_bad_comments_docs"
   },
   {
     "training_dataset_key": "code_data_120K_flowchart",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K-flowchart",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K-flowchart"
   },
   {
     "training_dataset_key": "code_data_120K_good_comments_docs",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K_good_comments_docs",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K_good_comments_docs"
   },
   {
     "training_dataset_key": "code_data_120K_imaginary",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K-imaginary",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K-imaginary"
   },
   {
     "training_dataset_key": "code_data_120K_pseudocode",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K-pseudocode",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K-pseudocode"
   },
   {
     "training_dataset_key": "code_data_120K_remove_comments",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K_remove_comments",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K_remove_comments"
   },
   {
     "training_dataset_key": "code_data_120K_remove_whitespace",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K_remove_whitespace",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K_remove_whitespace"
   },
   {
     "training_dataset_key": "code_data_120K_replace_comments_global",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K_replace_comments_global",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K_replace_comments_global"
   },
   {
     "training_dataset_key": "code_data_120K_replace_keywords_en",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K_replace_keywords_en",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K_replace_keywords_en"
   },
   {
     "training_dataset_key": "code_data_120K_replace_keywords_nonen",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K_replace_keywords_nonen",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K_replace_keywords_nonen"
   },
   {
     "training_dataset_key": "code_data_120K_replace_variables",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K_replace_variables",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K_replace_variables"
   },
   {
     "training_dataset_key": "code_data_120K_step_by_step",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K-step_by_step",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K-step_by_step"
   },
   {
     "training_dataset_key": "code_data_120K_swap_comments_local",
-    "legacy_hub_id": "CodeAtCMU/CodeInstructions-120K_swap_comments_local",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/CodeInstructions-120K_swap_comments_local"
   },
   {
     "training_dataset_key": "code_natural_language_mix_nl_10_data_120K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "code_natural_language_mix_nl_20_data_120K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "code_natural_language_mix_nl_2p5_data_120K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "code_natural_language_mix_nl_40_data_120K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "code_natural_language_mix_nl_5_data_120K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "code_natural_language_mix_nl_60_data_120K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "code_natural_language_mix_nl_80_data_120K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "code_natural_language_mix_nl_90_data_120K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "code_natural_language_mix_nl_95_data_120K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "code_natural_language_mix_nl_97p5_data_120K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "combined_data_120K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "mixed_data_120K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "natural_language_data_120K",
-    "legacy_hub_id": "CodeAtCMU/NaturalLanguageInstructions-120K",
-    "release_hub_id": null,
     "revision": null,
-    "status": "source dataset; publication revision pending"
+    "source_hub_id": "CodeAtCMU/NaturalLanguageInstructions-120K"
   },
   {
     "training_dataset_key": "natural_language_data_12K",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "natural_language_data_shard_0",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "natural_language_data_shard_1",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "natural_language_data_shard_2",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "natural_language_data_shard_3",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "natural_language_data_shard_4",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "natural_language_data_shard_5",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "natural_language_data_shard_6",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "natural_language_data_shard_7",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "natural_language_data_shard_8",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   },
   {
     "training_dataset_key": "natural_language_data_shard_9",
-    "legacy_hub_id": null,
-    "release_hub_id": null,
     "revision": null,
-    "status": "derived locally; see preparation commands"
+    "source_hub_id": null
   }
 ]

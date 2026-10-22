@@ -36,7 +36,7 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(
-        description="Summarize instance scores, including legacy -1 failures."
+        description="Summarize instance scores, including -1 for failed judgments."
     )
     parser.add_argument("--input_dir", required=True)
     parser.add_argument("--output_file", required=True)

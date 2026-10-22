@@ -69,7 +69,7 @@ combined examples with seed 42.
 
 For perturbation datasets, use `cir-prepare --source DATASET_ID --name DATASET_KEY`.
 The dataset key must match `dataset` in the training YAML. See
-[the dataset catalog](artifacts/datasets.json) for dataset keys and source IDs.
+[the dataset catalog](configs/datasets.json) for dataset keys and source IDs.
 
 ## Training
 
@@ -162,10 +162,10 @@ Evaluation saves the invocation and package versions alongside the results.
 Math benchmarks include GSM8K, HRM8K, arithmetic tasks, and math subsets of MMLU.
 HRM8K task definitions are also available under `third_party/tasks/hrm8k/`.
 
-The paper evaluates code understanding with CodeMMLU and code generation with
-HumanEvalX using instance-specific rubrics and GPT-4o-mini judging. The code
-benchmark pipeline and final result aggregation will be added with the remaining
-experiment code. Rubric and judge prompts are available in `prompts/paper/`.
+CodeMMLU and HumanEvalX generation, rubric generation, GPT-4o-mini judging,
+and aggregation commands are in [WORKFLOWS.md](WORKFLOWS.md). That guide also
+covers instruction collection, natural-language construction, generative
+perturbations, exact settings, and remaining experimental inputs.
 
 ## Repository contents
 
@@ -176,9 +176,9 @@ experiment code. Rubric and judge prompts are available in `prompts/paper/`.
 | `configs/deepspeed/` | DeepSpeed ZeRO-3 configuration |
 | `src/cir/` | Dataset preparation, mixture sampling, and evaluation tools |
 | `prompts/` | Generation and perturbation prompts, all in `.txt` format |
-| `artifacts/evaluation_results.json` | Individual benchmark metrics and evaluation metadata |
-| `artifacts/datasets.json` | Dataset catalog |
-| `artifacts/source_manifest.json` | Dependency revisions and configuration provenance |
+| `configs/datasets.json` | Dataset catalog |
+| `workflows/` | Instruction construction, generative perturbations, and HumanEvalX |
+| `third_party/codemmlu/` | CodeMMLU evaluator and aggregation |
 
 Additional data-generation code, dataset revisions, model links, and final aggregate
 results will be added as the release is completed.

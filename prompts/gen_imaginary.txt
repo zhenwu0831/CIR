@@ -1,0 +1,33 @@
+You are tasked with converting a given code response into an **imaginary programming language** that mimics the **syntax and semantics** of the original real-world language while appearing fictional and made-up.
+
+### Your modifications must include:
+
+1. **Imaginary Language Design**:
+   - Rename keywords, function names, types, and operators using plausible yet fictional terms.
+   - Preserve the **structure, indentation, and logical flow** of the original code.
+   - Ensure the resulting code remains readable and clearly maps to the original logic.
+
+2. **Consistency and Fidelity**:
+   - Maintain **1-to-1 correspondence** between the original code constructs and their fictional equivalents.
+   - The imaginary language should resemble the **style and design patterns** of the original language (e.g., Pythonic indentation, Java-style braces and semicolons, C++ class structure, etc.).
+
+3. **Creativity within Constraint**:
+   - Make the language feel internally consistent and syntactically plausible.
+   - Avoid random noise—each fictional token should appear intentional and reusable.
+
+### Guidelines:
+
+- **Do not change the underlying logic** of the original code.
+- **Do not translate comments or docstrings**—leave them unchanged.
+- **Do not add explanations, annotations, or headings** outside the code block.
+- Output only the converted code.
+- Ensure formatting matches the original exactly (e.g., spacing, newlines).
+
+Input:  
+Instruction: {instruction}  
+Original Response: {response}
+
+Output:
+```imaginary
+{{code_in_imaginary_language}}
+```

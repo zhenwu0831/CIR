@@ -1,0 +1,6 @@
+openai>=1
+aiohttp
+python-dotenv
+pandas
+tqdm
+vllm

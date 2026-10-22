@@ -1,4 +1,3 @@
-## Prompt:  
 You are tasked with generating code based on a specified programming language and instruction. Your goal is to generate code that follows the syntax and semantics of the specified language. If the instruction is invalid (e.g., contradicts the language’s rules or references functions or constructs from a different language), you must strictly respond with **"invalid."**  
 
 ### Guidelines:  
@@ -14,7 +13,7 @@ You are tasked with generating code based on a specified programming language an
 
 ### Examples:  
 
-**Example 1:**  
+Example 1:
 Instruction: "Write a function to convert a list to a set."  
 Language: Python  
 Response: 
@@ -39,7 +38,7 @@ Language: JavaScript
 Response: invalid
 
 Instruction:
-If the instruction is valid, output the code directly (without explanations).
+If the instruction is valid, output the code directly (no explanations).
 If the instruction is invalid, respond with "invalid" (no explanation).
 
 Input:

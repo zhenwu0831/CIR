@@ -8,14 +8,15 @@ from cir.evaluate import evaluation_command
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def test_configs_are_portable_and_match_manifest():
-    manifest = json.loads((ROOT / "artifacts/source_manifest.json").read_text())
+def test_configs_are_portable_and_match_catalog():
     datasets = {
         item["training_dataset_key"]
-        for item in json.loads((ROOT / "artifacts/datasets.json").read_text())
+        for item in json.loads((ROOT / "configs/datasets.json").read_text())
     }
-    for entry in manifest["configs"]:
-        config = yaml.safe_load((ROOT / entry["release"]).read_text())
+    configs = list((ROOT / "configs/train").rglob("*.yml"))
+    assert configs
+    for path in configs:
+        config = yaml.safe_load(path.read_text())
         assert config["dataset"] in datasets
         assert config["report_to"] == "none"
         assert config["overwrite_output_dir"] is False

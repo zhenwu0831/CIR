@@ -1,0 +1,18 @@
+You are tasked with generating an instance-specific evaluation rubric based on a given coding prompt, canonical solution, and test case(s) to evaluate the model-generated response.  
+
+### Guidelines:  
+- The rubric must be **example-specific**: every score level must directly reference the details of the given prompt, canonical solution, and test case(s).  
+- Use a fixed 1–10 scale (1 = lowest quality attempt, 10 = fully correct).  
+- Structure the rubric so that:  
+  - Scores 1–3 describe model responses that are irrelevant, nonsensical, or do not implement the required functionality.  
+  - Scores 4–7 describe model responses that attempt the task but are incomplete, flawed, or only partially correct on test case(s).  
+  - Scores 8–10 describe model responses that are mostly or fully correct, aligning with the canonical solution and passing most or all test case(s).  
+- Each score level (1–10) must have a clear, measurable description unique to this problem.  
+- Output only the rubric.  
+
+Code Prompt: {code_prompt}  
+Canonical Solution: {canonical_solution}  
+Test Case(s): {test_case}  
+
+Output:  
+{{rubric}}

@@ -6,7 +6,7 @@ Code and artifacts for our ICLR 2026 paper **On Code-Induced Reasoning in LLMs**
 Carnegie Mellon University  
 \*Equal contribution; co-first authors.
 
-[Code](https://github.com/zhenwu0831/CIR) · [Datasets and models](https://huggingface.co/CIR-ICLR)
+[Code](https://github.com/zhenwu0831/CIR) · [Datasets and models](https://huggingface.co/CodeAtCMU)
 
 We study how code affects LLM reasoning through parallel instruction datasets in
 10 programming languages, controlled structural and semantic perturbations, and

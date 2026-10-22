@@ -1,0 +1,36 @@
+You are tasked with generating a flow diagram in Markdown format that visualizes the control flow of the given code response. Your output must be a Mermaid flowchart embedded in a single fenced code block.
+
+Your diagram must:
+
+1. Translate code logic into control flow:
+   - Include major steps, function calls, loops, branches, and return points.
+   - Use concise, descriptive node labels that accurately reflect the code behavior.
+
+2. Follow valid Mermaid syntax:
+   - Begin with Start and end with End.
+   - Use [ ] for actions/processes.
+   - Use { } for decision/branch points.
+   - Use --> to connect nodes.
+   - Wrap everything in triple backticks with mermaid specified.
+
+3. Respect language conventions:
+   - Match naming and idioms to the language used in the original code.
+   - Do not reinterpret or alter the code logic.
+
+Guidelines:
+
+- Do not change the structure or logic of the original response.
+- Do not generate new code, only a flowchart of the existing response.
+- Keep node labels technical and minimal.
+- Do not include explanations, comments, or narrative outside the flowchart.
+- Follow the same formatting and structural conventions as the original prompt.
+
+Input:
+Instruction: {instruction}
+Original Response: {response}
+
+Output:
+
+```mermaid
+{{flowchart}}
+```

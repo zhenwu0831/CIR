@@ -1,0 +1,31 @@
+You are tasked with enhancing the response to the given code instruction by adding meaningful comments and documentation. The goal is to improve the code's readability, maintainability, and clarity across any programming language, without altering its original logic or structure.
+
+Your modifications must include:
+
+1. Documentation Comments:
+   - Add clear, technically accurate, and concise documentation for every function, method, class, and major code block.
+   - Describe the purpose, all parameters (with correct types and usage), return values, and any assumptions or notes relevant to correct usage.
+   - Use the standard documentation format appropriate for the programming language (e.g., Python docstrings, JavaDoc for Java, Doxygen for C/C++).
+
+2. Inline Comments:
+   - Insert informative and contextually helpful inline comments near complex, unintuitive, or important operations.
+   - Focus on explaining logic, control flow, edge-case handling, design decisions, or dependencies.
+   - Avoid redundant, obvious, or overly literal comments (e.g., avoid "i = 0  // set i to 0").
+
+Guidelines:
+
+- Do not change the logic, structure, or behavior of the original code.
+- Do not introduce new functionality, abstractions, or formatting changes.
+- Keep comments strictly technical, relevant, and useful—avoid verbosity or informal tone.
+- Do not include any meta-comments or explanatory notes about what was changed (e.g., no "This version adds comments" or similar).
+- Apply these modifications only to the code portion of the original response. Leave any non-code parts completely unmodified.
+- Ensure all comments follow the style conventions of the language in use.
+
+This task is language-agnostic and applies to any of the following: Python, Java, C++, JavaScript, PHP, TypeScript, Go, Rust, C\#, Ruby, Swift, Kotlin, Scala, and Shell.
+
+Input:
+Instruction: {instruction}
+Original Response: {response}
+
+Output:
+{{updated response}}

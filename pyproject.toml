@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cir-research"
+version = "0.1.0"
+description = "Data preparation and experiment tools for On Code-Induced Reasoning in LLMs"
+requires-python = ">=3.10"
+dependencies = ["datasets>=2.16,<=3.5.0", "PyYAML>=6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.9"]
+
+[project.scripts]
+cir-prepare = "cir.prepare:main"
+cir-evaluate = "cir.evaluate:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

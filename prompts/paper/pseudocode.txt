@@ -1,0 +1,31 @@
+You are tasked with converting a given code response into pseudocode that mirrors the structure and semantics of the original code, while preserving the idiomatic style of the original programming language.
+
+Your modifications must include:
+
+1. Pseudocode Style:
+   - Replace exact syntax with language-specific pseudocode constructs (e.g., use IF ... THEN ... ENDIF for conditionals, FOR EACH or WHILE for loops).
+   - Remove implementation details such as variable declarations with types, precise syntax, or specific library calls—replace them with clear, high-level descriptions.
+
+2. Structure Preservation:
+   - Maintain the overall control flow and indentation of the original code.
+   - Use meaningful, readable names that reflect their purpose in the code.
+   - Ensure each function, class, or logical block is represented clearly in pseudocode format.
+
+3. Fidelity to Language Idioms:
+   - Adapt the pseudocode to reflect the spirit and conventions of the original language (e.g., Python’s indentation style, Java’s block structure, C++-like modularity).
+
+Guidelines:
+
+- Do not alter the logic, structure, or order of operations.
+- Do not include actual code syntax (e.g., semicolons, colons, type annotations, brackets).
+- Do not add comments, explanations, or headings outside the code block.
+- Output only the converted pseudocode.
+- Preserve formatting and indentation faithfully.
+
+Input:
+Instruction: {instruction}
+Original Response: {response}
+
+Output:
+
+{{pseudocode}}

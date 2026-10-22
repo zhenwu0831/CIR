@@ -1,0 +1,3 @@
+# Training framework revision; GPU compatibility still needs a smoke test.
+llamafactory @ git+https://github.com/macabdul9/LLaMA-Factory.git@d230f23e74fb1656dfeb07f782e96d7ec2632814
+deepspeed>=0.10.0,<=0.16.5

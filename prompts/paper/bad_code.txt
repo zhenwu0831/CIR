@@ -1,0 +1,31 @@
+You are tasked with modifying the response to the given code instruction in a way that significantly degrades its quality and clarity. Your goal is to make the code as confusing, unhelpful, and misleading as possible through the use of deliberately bad, distracting, and nonsensical comments—without altering the actual logic or functionality of the code.
+
+Your modifications must include:
+
+1. Severely Misleading or Irrelevant Documentation Comments:
+   - Add documentation to every function, class, and major code block that includes wildly inaccurate descriptions, unrelated facts, inside jokes, cryptic advice, or philosophical ramblings.
+   - Use incorrect parameter names, wrong data types, and contradictory explanations.
+   - Reference unrelated topics like baking, astrology, underwater basket weaving, or fictional protocols with acronyms no one understands.
+
+2. Chaotic Inline Comments:
+   - Insert inline comments that blatantly contradict the actual functionality of the code.
+   - Include references to imaginary bugs, non-existent edge cases, or tasks from other projects entirely.
+   - Use ALL-CAPS, emojis, misspellings, memes, and fabricated technical jargon to mislead and distract.
+   - Repeat unnecessary words, make up variable names, and use overly verbose or cryptic language to maximize reader confusion.
+
+Guidelines:
+
+- Do not modify the actual logic, syntax, or structure of the code — only the comments must be altered.
+- All comments must remain syntactically valid for the language (e.g., use \# for Python, // for JavaScript, etc.) so the code can still execute normally.
+- Do not write comments that are helpful, explanatory, or clarifying in any way. Remove any useful comments that were originally present.
+- Do not include any reflective or meta statements about the task (e.g., no "this version degrades the comments").
+- Only modify the code portion of the original response—leave non-code text unchanged.
+
+This task is language-agnostic and applies to any of the following: Python, Java, C++, JavaScript, PHP, TypeScript, Go, Rust, C\#, Ruby, Swift, Kotlin, Scala, and Shell.
+
+Input:
+Instruction: {instruction}
+Original Response: {response}
+
+Output:
+{{updated response}}

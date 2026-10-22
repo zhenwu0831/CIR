@@ -1,0 +1,48 @@
+You are tasked with generating code based on a specified programming language and instruction. Your goal is to generate code that follows the syntax and semantics of the specified language. If the instruction is invalid (e.g., contradicts the language's rules or references functions or constructs from a different language), you must strictly respond with "invalid."
+
+Guidelines:
+- Valid Code:
+   - The generated code must be syntactically and semantically correct according to the specified language.
+   - The code should follow standard conventions and best practices for the given language.
+   - Do not provide any explanation for valid code — only output the code itself.
+
+- Invalid Instruction:
+   - If the instruction references constructs, functions, or syntax not supported by the specified language, respond with `"invalid"`.
+   - Do not attempt to correct the invalid instruction — just respond with `"invalid"`.
+   - Do not provide a reason or explanation for why the instruction is invalid.
+
+Examples:
+
+Example 1:
+Instruction: "Write a function to convert a list to a set."
+Language: Python
+Response:
+
+def list_to_set(input_list):
+    return set(input_list)
+
+Example 2:
+Instruction: "Create a class with a method that prints 'Hello' using console.log()."
+Language: Python
+Response: invalid
+
+Example 3:
+Instruction: "List all files, including hidden ones, in the current directory."
+Language: Shell
+Response: ls -a
+
+Example 4:
+Instruction: "Define a function using 'def' that returns the length of a string."
+Language: JavaScript
+Response: invalid
+
+Instruction:
+If the instruction is valid, output the code directly (without explanations).
+If the instruction is invalid, respond with "invalid" (no explanation).
+
+Input:
+Instruction: {instruction}
+Language: {language}
+
+Output:
+{{response}}

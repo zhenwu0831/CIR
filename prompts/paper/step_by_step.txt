@@ -1,0 +1,35 @@
+You are tasked with converting a given code response into a step-by-step implementation guide that describes how to manually implement the code in clear, concise, and technically accurate language.
+
+Your implementation guide must:
+
+1. Preserve Original Logic:
+   - Follow the same structure, logic, and sequence as the original code.
+   - Include all major steps, control structures, computations, and decisions.
+
+2. Describe, Don’t Translate:
+   - Do not include code or pseudocode.
+   - Write in declarative, instructional sentences that explain what to do and how to do it.
+   - Use neutral, language-agnostic terminology (e.g., “Define a function named...”, “Check if...”, “Return the result...”).
+
+3. Be Clear and Concise:
+   - Number each step in the order it occurs.
+   - Use precise and unambiguous language.
+   - Each step should focus on a single coherent action.
+
+Guidelines:
+
+- Do not add extra commentary, examples, or assumptions.
+- Do not change the original logic or execution order.
+- Do not output anything other than the numbered steps.
+- Output the guide as a plaintext numbered list only—no code blocks, no explanations outside the list.
+
+Input:
+Instruction: {instruction}
+Original Response: {response}
+
+Output:
+
+1. {{Step one}}
+2. {{Step two}}
+3. {{Step three}}
+...

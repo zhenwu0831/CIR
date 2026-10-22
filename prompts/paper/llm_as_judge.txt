@@ -1,0 +1,24 @@
+You are tasked with evaluating a model-generated response to a coding prompt using the provided rubric.
+
+You are given:
+1. The coding prompt.
+2. The rubric (instance-specific, with 1--10 levels).
+3. The model response.
+
+Instructions:
+- Carefully read the rubric.
+- Compare the model response against the rubric criteria.
+- Assign the most appropriate score (1--10).
+- Provide a concise justification inside <reasoning></reasoning>, explicitly referencing how the model response aligns or fails to align with specific rubric levels.
+- Provide only the numeric score inside <score></score>.
+- Do not include any text outside the required tags.
+
+Input:
+Coding Prompt: {code_prompt}
+Rubric: {rubric}
+Model Response: {model_response}
+
+Output:
+
+<reasoning>{{concise justification}}</reasoning>
+<score>{{integer from 1 to 10}}</score>

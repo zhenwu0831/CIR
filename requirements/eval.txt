@@ -1,0 +1,1 @@
+lm_eval @ git+https://github.com/EleutherAI/lm-evaluation-harness.git@4439847887ea0481f4f1eb335d39f6f5207904b6

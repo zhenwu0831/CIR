@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite the paper when using this research code or its artifacts."
+title: "On Code-Induced Reasoning in LLMs"
+type: software
+authors:
+  - family-names: Waheed
+    given-names: Abdul
+  - family-names: Wu
+    given-names: Zhen
+  - family-names: Rosé
+    given-names: Carolyn
+  - family-names: Ippolito
+    given-names: Daphne
+repository-code: "https://github.com/zhenwu0831/CIR"
+preferred-citation:
+  type: conference-paper
+  title: "On Code-Induced Reasoning in LLMs"
+  authors:
+    - family-names: Waheed
+      given-names: Abdul
+    - family-names: Wu
+      given-names: Zhen
+    - family-names: Rosé
+      given-names: Carolyn
+    - family-names: Ippolito
+      given-names: Daphne
+  year: 2026
+  conference:
+    name: "International Conference on Learning Representations"

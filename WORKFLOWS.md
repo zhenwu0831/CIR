@@ -47,6 +47,39 @@ through your endpoint. Language lines include their newline
 in formatting and output keys. The loop reloads saved output but does not skip
 existing IDs.
 
+## Rule-based perturbations
+
+`cir-perturb` rewrites the `response` field of `CodeAtCMU/CodeInstructions-120K`
+and registers the result under the given dataset key:
+
+```bash
+cir-perturb --perturbation remove_comments --name code_data_120K_remove_comments
+cir-perturb --perturbation remove_whitespace --name code_data_120K_remove_whitespace
+cir-perturb --perturbation replace_variables --name code_data_120K_replace_variables
+cir-perturb --perturbation replace_keywords_en --name code_data_120K_replace_keywords_en
+cir-perturb --perturbation replace_keywords_nonen --name code_data_120K_replace_keywords_nonen
+cir-perturb --perturbation swap_comments_local --name code_data_120K_swap_comments_local
+cir-perturb --perturbation replace_comments_global --name code_data_120K_replace_comments_global
+```
+
+`bash scripts/prepare_perturbations.sh` runs all seven and forwards extra arguments
+such as `--revision` or `--output-dir`. The language comes from the id prefix.
+
+`remove_comments`, `remove_whitespace`, and `replace_variables` apply inside
+triple-backtick code blocks. Comment removal strips single-line comments and
+`/* */` blocks (triple single quotes for Python). Whitespace removal deletes every
+whitespace character. Variable replacement renames identifiers found in Python
+assignments or C-style declarations to `var_N` in sorted order, outside string
+literals and a reserved-word list.
+
+`replace_keywords_en`, `replace_keywords_nonen`, `swap_comments_local`, and
+`replace_comments_global` operate on the whole response. Keyword replacement draws a
+nonsense word per keyword occurrence outside single-line comments. Comment swapping
+shuffles the single-line comments of a response with at least two distinct comments,
+trying up to five times to change the order, and substitutes them in sequence.
+Global replacement draws from the pool of all single-line comments in the dataset,
+saved as `<name>.comments.json`. Random perturbations use `--seed` (default 42).
+
 ## Generative perturbations
 
 Set `OPENAI_API_KEY` and optionally `OPENAI_BASE_URL` before API commands.

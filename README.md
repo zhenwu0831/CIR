@@ -74,6 +74,16 @@ For perturbation datasets, use `cir-prepare --source DATASET_ID --name DATASET_K
 The dataset key must match `dataset` in the training YAML. See
 [the dataset catalog](configs/datasets.json) for dataset keys and source IDs.
 
+Rule-based perturbations can also be regenerated locally from the code dataset:
+
+```bash
+cir-perturb --perturbation remove_comments --name code_data_120K_remove_comments
+bash scripts/prepare_perturbations.sh --revision COMMIT
+```
+
+The launcher prepares all seven rule-based datasets. See
+[WORKFLOWS.md](WORKFLOWS.md) for the perturbation definitions.
+
 ## Training
 
 ### A single experiment
@@ -177,7 +187,7 @@ perturbations and experimental settings.
 | `scripts/` | Bash launchers for training, sweeps, and evaluation |
 | `configs/train/` | Model and dataset training configurations |
 | `configs/deepspeed/` | DeepSpeed ZeRO-3 configuration |
-| `src/cir/` | Dataset preparation, mixture sampling, and evaluation tools |
+| `src/cir/` | Dataset preparation, mixture sampling, rule-based perturbations, and evaluation tools |
 | `prompts/` | Generation and perturbation prompts, all in `.txt` format |
 | `configs/datasets.json` | Dataset catalog |
 | `workflows/` | Instruction construction, generative perturbations, and HumanEvalX |
